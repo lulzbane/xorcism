@@ -1,0 +1,25 @@
+#main{
+  -webkit-transform: translateY(-100%) rotate(90deg); /* Safari */
+  transform: translateY(-100%) rotate(90deg); /* W3C */  
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+
+#preloader{
+  -webkit-transform: translateY(-100%) rotate(90deg); /* Safari */
+  transform: translateY(-100%) rotate(90deg); /* W3C */  
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+
+#bg-home{
+	background-size: auto 100%;
+}
+
+#bg-game{
+	background-size: auto 100%;
+}
+
+#bg-credits{
+	background-size: auto 100%;
+}

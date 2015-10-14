@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>xorcism</title>     
+    <style>/* Removes Mobile Highlight */ *{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}</style>
+    <meta id="viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="all and (orientation:landscape) and (max-device-width : 1024px) " href="landscape.css">
+    <script  type="text/javascript">window.xorcism = {};</script>	
+  </head>
+  <body>
+    <div id="main">
+      <div id="bg">
+      </div>
+      <div id="content">
+        <div class="bg-class" id="bg-home" style="display: block;">
+          <div class="background"></div>
+          <div id="logo">
+          </div> 
+          <div id="version">
+            0.8.3
+          </div>
+          <div id="recorded-highscore-container">
+            <span>highscore: </span><span id="highscore-value">0</span>
+          </div>
+          <div id="result-highscore-container">
+            <span class="highscore-wow" style="left: 6%; top: 80%; color: #ffa953; -webkit-transform: rotate(15deg); transform:rotate(15deg);">very wow</span>
+            <span class="highscore-wow" style="left: 2%; top: 41%; color: #909090;">many<br/>high</span>
+            <span class="highscore-wow" style="left: 69%; top: 5%; color: #03dc70; -webkit-transform: rotate(15deg); transform:rotate(15deg);">much score</span>
+            <span class="highscore-wow" style="left: 78%; top: 54%; color: #ff0;">wow</span>
+            <span class="highscore-wow" style="left: 4%; top: 10%; color: #8080ff; -webkit-transform: rotate(-15deg); transform:rotate(-15deg);">so new</span>
+            <span class="highscore-wow" style="left: 55%; top: 76%; color: #fb57a9; -webkit-transform: rotate(-5deg); transform:rotate(-5deg);">such skillz</span>
+          </div>
+          <div id="result-container">
+            <div id="result-label">score!</div>
+            <div id="result-value" class="text-3d-black">0</div>
+          </div>
+          <div id="menu-container">
+            <div class="menu-item-white home-link"><a href="javascript:void(0);" id="new-link">New Game<a/></div>
+            <div class="menu-item-white home-link"><a href="javascript:void(0);" id="credits-link">Credits<a/></div>
+          </div>
+        </div>
+        <div class="bg-class" id="bg-game" style="display: none;">
+           <div class="background">
+            <div id="star-filler"></div>
+           </div>
+           <div id="current-score">
+            <p>score: <span id="current-score-value">0</span></p>
+           </div>
+        </div>
+        <div class="bg-class" id="bg-credits" style="display: none;">
+          <div id="credits-back">
+            <div class="menu-item-black"><a href="javascript:void(0);" id="credits-back-link">back...<a/></div>
+          </div>
+          <div id="credits-text">
+            <p>artwork</p>
+            <p><span class="text-3d-black"><span style="color: #8080ff">l</span><span style="color: #ff0">i</span><span style="color: #23fc70">l</span><span style="color: #fb57a9">l</span><span style="color: #ffa953">y</span></span> <span class="text-3d-white">wiggill</span></p>
+            <br/>
+            <p>code</p>
+            <p class="text-3d-white">eric alan solo</p>
+          </div>
+          <div id="credits-heart">
+            <p class="text-3d-white"><3</p>
+          </div>
+        </div>
+      </div>
+      <div id="bleed-left" class="bleed">
+      </div>
+      <div id="bleed-right" class="bleed">
+      </div>
+    </div>
+    <div id="preloader">
+      <div id="preloader-logo">xorcism</div>
+      <div id="preloader-progbar"></div>
+    </div>
+    <script src="mootools-core-1.4.5-full-nocompat-yc.js" type="text/javascript"></script>	
+    <script src="yepnope.1.5.4-min.js" type="text/javascript"></script>
+    <script src="load.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="game.css">
+  </body>
+</html>

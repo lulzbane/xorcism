@@ -1,0 +1,399 @@
+.bleed{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: #000;
+}
+
+#bleed-left{
+  left: 0;
+}
+
+#bleed-right{
+  right: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-family: verdana;
+}
+
+#bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(bg-bg.png);
+	opacity: 0.5;
+}
+
+#content{
+  position:absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#bg-home{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.background {
+  position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+	background-size: auto 100%;
+  background-image: url(content-bg.png);
+	opacity: 0.8;
+}
+
+#star-filler{
+  position: absolute;
+	left: 0;
+	top: 0;
+	width: 60%;
+	height: 6%;
+  background-repeat: no-repeat;
+	background-size: contain;
+  background-image: url(stars.png);
+}
+
+#bg-game{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+  overflow: hidden;
+	display: none;
+}
+
+#bg-credits{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+  display: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+	background-size: auto 100%;
+  background-image: url(home-bg.png);
+	opacity: 0.8;
+}
+
+#menu-container{
+	position: absolute;
+	top:  70%;
+	left: 20%;
+	width: 60%;
+	height: 25%;
+	text-align:center;
+}
+
+.home-link{
+  margin: 8% 0;
+}
+
+.home-link a{
+  font-size: 2em;
+}
+
+.text-3d-white{
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #999,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  cursor: default;
+}
+
+
+.text-3d-black{
+	font-weight: bold;
+	color: #555;
+	text-shadow: 0 1px 0 #333,
+               0 2px 0 #2d2d2d,
+               0 3px 0 #222,
+               0 5px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.25),
+               0 5px 10px rgba(0,0,0,.3),
+               0 10px 10px rgba(0,0,0,.25),
+               0 20px 20px rgba(0,0,0,.3);
+  cursor: default;
+}
+
+
+.menu-item-white a{
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #999,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+.menu-item-black a{
+	font-weight: bold;
+	color: #555;
+	text-shadow: 0 1px 0 #333,
+               0 2px 0 #2d2d2d,
+               0 3px 0 #222,
+               0 4px 0 #1d1d1d,
+               0 5px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.25),
+               0 5px 10px rgba(0,0,0,.3),
+               0 10px 10px rgba(0,0,0,.25),
+               0 20px 20px rgba(0,0,0,.3);
+}
+
+
+.menu-item-white a:hover, .menu-item-white a:active{
+	color: #eef;
+}
+
+.menu-item-black a:hover, .menu-item-black a:active{
+	color: #777;
+}
+
+#credits-back{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 35%;
+  height: 15%;
+  background: url(baloon-left.png) no-repeat;
+  background-size: contain;
+}
+#credits-back .menu-item-black{
+  padding-top: 9%;
+  text-align: center;
+}
+  
+#credits-back-link{
+  margin-left: -40%;
+}
+
+#credits-text{
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2em;
+  left: 15%;
+  top: 63%;
+  width: 70%;
+  height: 30%; 
+  text-align: center;
+  line-height: 4%;
+  text-shadow: -1px -1px 6px #aaa,
+    1px -1px 6px #aaa,
+    -1px 1px 6px #aaa,
+    1px 1px 6px #aaa;
+  cursor: default;
+    opacity: 0.95;
+}
+
+#credits-text.text-3d-white{
+  font-size: 2.2em;
+}
+
+#credits-heart{
+  font-size: 2em;
+  position: absolute;
+  left: 40%;
+  bottom: 1%;
+  height: 10%;
+  width: 20%;
+  cursor: default;
+  opacity: 0.4;
+  text-align: center;
+}
+
+#result-container{
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  width: 60%;
+  height: 50%;
+  background: url(baloon.png) no-repeat;
+  background-size: contain;
+  display: none;
+}
+
+#result-label{
+  position: absolute;
+  font-family: verdana;
+  left: 20%;
+  top: 12%;
+  width: 60%;
+  height: 15%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7em;
+  padding-top: 8%;
+  opacity: 0.75;
+  cursor: default;
+}
+
+#result-value{
+  position: absolute;
+  font-family: verdana;
+  left: 18%;
+  top: 27%;
+  width: 63%;
+  height: 15%;
+  text-align: center;
+  font-size: 1.5em;
+  word-wrap:break-word;
+}
+
+#result-highscore-container{
+  position: absolute;
+  left: 5%;
+  top: 7%;
+  width: 90%;
+  height: 60%;
+  display: none;
+}
+
+.highscore-wow{
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 1px #000,
+    3px 3px 3px #333,
+    5px 5px 1px #fff;
+  cursor: default;
+  opacity: 1;
+}
+
+#recorded-highscore-container{
+  position: absolute;
+  left: 2%;
+  top: 0%;
+   font-weight: bold;
+  font-family: verdana;
+  font-size: 1.5em;
+  color: #fff;
+  opacity: 0.95;
+  text-shadow: 2px 2px 1px #000;
+}
+
+#recorded-highscore-container span{
+  cursor: default;
+}
+
+#sprite-origin{
+  position: absolute;
+  left: 13%;
+  top: 64%;
+  width: 0%;
+  height: 0%;
+}
+
+.sprite{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: contain;
+  -webkit-transform-origin: top left;
+  transform-origin: bottom left;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.sprite-hitbox{
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  display: block;
+}
+
+#current-score{
+  position: absolute;
+  color: #fff;
+  font-family: verdana;
+  left: 5%;
+  bottom: 2%;
+  width: 60%;
+  height: 8%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.7em;
+  padding-top: 8%;
+  opacity: 0.9;
+  cursor: default;
+}
+
+.sprite{
+  width: 200px; 
+  height: 350px;
+}
+
+.ghost{
+  background-image: url('endghost.png');
+}
+
+.balloon{
+  background-image: url('baloon-smaller.png');
+}
+
+#logo{
+  position: absolute;
+  left: 2%;
+  bottom: 0%;
+  width: 50%;
+  height: 8%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('logooutlined.png');
+  opacity: 0.6;
+}
+
+#version{
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  text-align: right;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #fff;
+}
